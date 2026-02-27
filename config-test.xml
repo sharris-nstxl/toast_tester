@@ -15,7 +15,7 @@
 	<Option Name="DismissButton" Enabled="True" />	<!-- Enables or disables the dismiss button. -->
 	<Option Name="SnoozeButton" Enabled="False" /> <!-- Enabling this option will always enable action button and dismiss button -->
 	<Option Name="Scenario" Type="reminder" />	<!-- Possible values are: reminder | short | long | alarm -->
-	<Option Name="Action1" Value="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWh0d2R4ZDQ0MXBqdGJueHd5ZDMybjI2bHNoNms3aDZhcnNnOTZ3aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ju7l5y9osyymQ/giphy.gif" />	<!-- Action taken when using the Action button. Can be any protocol in Windows -->
+	<Option Name="Action1" Value="https://securityawareness.dcsa.mil/cybersecurity/index.htm" />	<!-- Action taken when using the Action button. Can be any protocol in Windows -->
 	<Option Name="Action2" Value="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWNwd25rM2xsdmJqNmdoenZzcTNrZHdkd3E1NnQ1eHVjYWRwM2JkMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qBepfJA2lM177gpmKa/giphy.gif" />	<!-- Action taken when using the Action button. Can be any protocol in Windows -->
 	<Text Option="MultiLanguageSupport" Enabled="False" /> <!-- Enable support for multiple languages. If set to True, the toast notification will look for the users language culture within the config file -->
 	<en-US> <!-- Default fallback language. This language will be used if MultiLanguageSupport is set to False or if no matching language is found -->
